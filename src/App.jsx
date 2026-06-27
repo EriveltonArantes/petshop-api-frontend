@@ -1,6 +1,6 @@
 import React from 'react';
 
-const apiBaseUrl = "https://petshop-api.onrender.com";
+const apiBaseUrl = "https://petshop-api-c0oe.onrender.com";
 
 function authHeaders(token) {
   return token ? { "Authorization": "Bearer " + token } : {};
